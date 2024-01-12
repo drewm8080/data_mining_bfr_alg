@@ -1,10 +1,12 @@
-1. **Overview of the Assignment**
+# BFR Algorithm Implementation
+
+**Overview of the Assignment**
     I will implement the Bradley-Fayyad-Reina (BFR) algorithm on a synthetic dataset. The goal is to familiarize myself with the clustering process and various distance measurements using synthetic datasets.
 
-3. **Dataset**
+**Dataset**
    - Synthetic datasets were generated to meet the strong assumption of the BFR algorithm that clusters are normally distributed with independent dimensions. The dataset includes random centroids, data points, and outliers for algorithm evaluation.
 
-4. **Task**
+**Task**
    I will implement the Bradley-Fayyad-Reina (BFR) algorithm to cluster the data in hw6_clustering.txt. The algorithm involves three sets of points: Discard set (DS), Compression set (CS), and Retained set (RS). The steps of the BFR algorithm include loading data, running K-Means, and generating DS and CS clusters.
 
    - **Step 1**: Load 20% of the data randomly.
@@ -22,4 +24,5 @@
 
 The BFR algorithm aims to efficiently cluster the dataset and handle outliers.
 - **Accuracy**: 99.98%
+- **Grade**: 100%
 
