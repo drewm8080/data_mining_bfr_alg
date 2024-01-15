@@ -23,6 +23,17 @@ I will implement the Bradley-Fayyad-Reina (BFR) algorithm to cluster the data in
    - **Step 12**: Evaluate the clustering performance using appropriate metrics.
 
 The BFR algorithm aims to efficiently cluster the dataset and handle outliers.
+
+### Output
+The output file is a text file, containing the following information:
+
+a. The intermediate results (the line is named as “The intermediate results”):
+I will start each line with “Round { }” and output the numbers in the order of “the number of the discard points”, “the number of the clusters in the compression set”, “the number of the compression points”, and “the number of the points in the retained set”. I will leave one line in the middle before writing out the cluster results.
+
+b. The clustering results (the line is named as “The clustering results”):
+I will include the data points index and their clustering results after the BFR algorithm. The clustering results should be in [0, the number of clusters). The cluster of outliers should be represented as -1.
+
+
 - **Accuracy**: 99.98%
 - **Grade**: 100%
 
